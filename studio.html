@@ -365,7 +365,7 @@ data-wf-site="66601c7c6b0d48cf88bbe06c" lang="en">
 }
 
 .practice-section p.practice-body {
-  margin-bottom: 0;   /* tighten paragraph spacing */
+  margin-bottom: 1;   /* tighten paragraph spacing */
 }
 
 /* Remove bottom margin from the "Who we are" text */
@@ -388,6 +388,22 @@ data-wf-site="66601c7c6b0d48cf88bbe06c" lang="en">
   line-height: 1.6;  /* improves readability */
   font-weight: 200;  /* normal, or use 500/600 for slightly bolder */  /* optional: make text solid black */
 }
+.practice-col_inner {
+  max-width: 100%;    /* Full available width */
+  width: 100%;        /* Occupy full width */
+}
+
+.practice-body p {
+  max-width: 700px;   /* Adjust until it matches perfectly */
+  margin: 0;          /* Remove extra side gaps */
+  line-height: 1.6;   /* Keep it readable */
+}
+
+.layout-flex.practice-body {
+  display: block;       /* Prevents side-by-side columns */
+  width: 100%;
+}
+
 .team-left .body-copy {
   font-size: 32px;   /* bigger text */
   font-weight: 700;  /* bold */
@@ -433,14 +449,10 @@ html, body {
   max-width: 700px;
 }
 .practice-col_inner {
-  max-width: 95%; /* Removes any fixed narrow width */
-  width: 95%;      /* Makes it take full width */
+  max-width: 700px;
+  margin: 0;
 }
 
-.practice-body {
-  max-width: 95%;
-  width: 95%;
-}
 /* Default image styles */
 .body-copy {
   font-size: 28px;  /* Increase or decrease as needed */
@@ -774,13 +786,13 @@ html, body {
             <div class="practice-section">
              
                 <div class="layout-flex is-practice">
-                  <div class="practice-col">
+                  <div class="practice-col" style="width: 87%;">
                     <div class="body-copy is-grey">
                       The Practice
                     </div>
                     <div class="layout-flex practice-body">
-                      <div class="practice-col_inner">
-                        <p class="practice-body">
+                      <div class="practice-col_inner" style="max-width: 87%;">
+                        <p class="practice-body" style="max-width: 87%;">
                           Porous Delab is an architecture studio that celebrates intuitive
                           design. The practice is led by Alex Stewart and Justin Häusle. We have
                           a track record of synthesising complex planning challenges and successfully
@@ -788,16 +800,14 @@ html, body {
                           infrastructure, public and residential projects, providing full architectural
                           and interior design services. The architectural team is supported by specialist
                           resources in BIM, interior design, town planning, environmental analysis,
-                          parametric modelling and visualisation.
-                        </p>
-                        <p class="practice-body">
-                          We are a fully BIM-integrated office. This has been a key feature of our
+                          parametric modelling and visualisation.We are a fully BIM-integrated office. This has been a key feature of our
                           global projects that involve collaboration with multiple partners across
                           languages and national borders.The practice is registered with the United
                           Kingdom Architecture Registration Board (ARB), the South African Council
                           for the Architectural Profession (SACAP), the South African Institute for
                           Architecture (SAIA) and the Cape Institute for Architecture (CIA).
                         </p>
+                        
                       </div>
                       <!-- <div class="practice-col_inner">
                         
