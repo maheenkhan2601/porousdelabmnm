@@ -588,104 +588,191 @@
          padding-bottom: 80vh;
          }
          }
+         /* same font size for both logo and menu links */
+.menu-logo_text,
+.menu-link_text {
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+/* make the logo extra bold + more spacing */
+.menu-logo_text {
+  font-weight: 900;       /* maximum bold */
+  letter-spacing: 3px;    /* adjust spacing as needed */
+  text-transform: uppercase; /* optional: makes it more striking */
+}
+
+.menu_img-holder,
+.menu_img-holder img,
+.grid-img {
+  width: 250px !important;
+  height: 250px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.egg-menu_head {
+  font-size: 48px;   /* adjust bigger if needed */
+  font-weight: 900;  /* very bold */
+  line-height: 1.1;  /* tighter spacing */
+  margin: 0;         /* removes any extra space */
+}
+
+
       </style>
    </head>
    <body>
-      <div class="menu-component">
-         <div class="menu-layout">
-            <div class="menu-col is-left">
-               <div class="menu-logo_holder">
-                  <div class="menu-logo_layout">
-                     <h3 class="menu-logo_text">Porous Delab</h3>
-                  </div>
-               </div>
-               <div mainmenu-fade="" class="menu-infite_holder">
-                  <div class="menu-inf_wrap w-dyn-list">
-                     <div role="list" class="menu-inf_list w-dyn-items">
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe127_Menu_Gallery%2001.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe139_Menu_Gallery%2003.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe138_Menu_Gallery%2002.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13a_Menu_Gallery%2004.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13b_Menu_Gallery%2005.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13d_Menu_Gallery%2007.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13c_Menu_Gallery%2006.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13f_Menu_Gallery%2009.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe140_Menu_Gallery%2010.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                        <div role="listitem" class="menu-inf_item w-dyn-item">
-                           <div class="menu-inf_comp">
-                              <div class="menu_img-holder">
-                                 <div class="menu-img_height"></div>
-                                 <img src="https://cdn.prod.website-files.com/66601c7c6b0d48cf88bbe075/66601c7c6b0d48cf88bbe13e_Menu_Gallery%2008.jpg" loading="eager" alt="" class="img-fill"/>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+    <div class="menu-component">
+      <div class="menu-layout">
+        <div class="menu-col is-left">
+          <div class="menu-logo_holder">
+            <div class="menu-logo_layout">
+              <h3 class="menu-logo_text">
+                Porous Delab
+              </h3>
             </div>
+          </div>
+          <div mainmenu-fade="" class="menu-infite_holder">
+            <div class="menu-inf_wrap w-dyn-list">
+              <div role="list" class="menu-inf_list w-dyn-items">
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\1 (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\Artboard 39 copy 6 (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\hero.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\Artboard 39 copy 3 (1) (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/farm house.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+               
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src= "../assets/images/tropical farmhouse.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\Artboard 39 copy 25.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/farmhouse 3 - Copy.png"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\cottage 2 (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\hero-new.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\Artboard 39 copy 22.jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\2 (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" class="menu-inf_item w-dyn-item">
+                  <div class="menu-inf_comp">
+                    <div class="menu_img-holder">
+                      <div class="menu-img_height">
+                      </div>
+                      <img src="../assets/images/New folder\cottage 4 (1).jpg"
+                      loading="eager" alt="" class="img-fill" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
             <div class="menu-col is-right">
                <div class="menu-list">
                   <a href="../index.html" class="menu-link w-inline-block">
